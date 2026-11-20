@@ -1,0 +1,18 @@
+[
+  {
+    "id": "B1",
+    "incident": "I1",
+    "line": "LB",
+    "start_min": 50380,
+    "end_min": 50459,
+    "approved": true
+  },
+  {
+    "id": "B2",
+    "incident": "I1",
+    "line": "LD",
+    "start_min": 50370,
+    "end_min": 50420,
+    "approved": false
+  }
+]

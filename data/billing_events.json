@@ -1,0 +1,38 @@
+[
+  {
+    "id": "S0",
+    "tenant": "TA",
+    "incident": "I0",
+    "month": "2026-10",
+    "amount_cents": 5600,
+    "issued_min": 44000,
+    "action": "已付"
+  },
+  {
+    "id": "S1",
+    "tenant": "TA",
+    "incident": "I1",
+    "month": "2026-11",
+    "amount_cents": 7200,
+    "issued_min": 88000,
+    "action": "已发"
+  },
+  {
+    "id": "S2",
+    "tenant": "TB",
+    "incident": "I1",
+    "month": "2026-11",
+    "amount_cents": 5300,
+    "issued_min": 88000,
+    "action": "已发"
+  },
+  {
+    "id": "S3",
+    "tenant": "TC",
+    "incident": "I1",
+    "month": "2026-11",
+    "amount_cents": 3600,
+    "issued_min": 88000,
+    "action": "已付"
+  }
+]

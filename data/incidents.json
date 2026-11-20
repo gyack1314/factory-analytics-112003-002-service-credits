@@ -1,0 +1,30 @@
+[
+  {
+    "id": "I0",
+    "start_min": 42970,
+    "end_min": 43260,
+    "node": "X1",
+    "kind": "接入异常"
+  },
+  {
+    "id": "I1",
+    "start_min": 50340,
+    "end_min": 50525,
+    "node": "X1",
+    "kind": "接入异常"
+  },
+  {
+    "id": "I2",
+    "start_min": 50640,
+    "end_min": 50825,
+    "node": "X1",
+    "kind": "处理异常"
+  },
+  {
+    "id": "I3",
+    "start_min": 72225,
+    "end_min": 72395,
+    "node": "X2",
+    "kind": "处理异常"
+  }
+]

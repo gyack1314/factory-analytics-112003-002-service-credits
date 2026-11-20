@@ -1,0 +1,29 @@
+[
+  {
+    "tenant": "TA",
+    "monthly_cap_cents": 24000,
+    "first_min": 20,
+    "second_min": 70,
+    "first_cents_per_min": 90,
+    "second_cents_per_min": 160,
+    "priority": 1
+  },
+  {
+    "tenant": "TB",
+    "monthly_cap_cents": 21000,
+    "first_min": 15,
+    "second_min": 45,
+    "first_cents_per_min": 100,
+    "second_cents_per_min": 130,
+    "priority": 2
+  },
+  {
+    "tenant": "TC",
+    "monthly_cap_cents": 19000,
+    "first_min": 30,
+    "second_min": 60,
+    "first_cents_per_min": 95,
+    "second_cents_per_min": 175,
+    "priority": 3
+  }
+]

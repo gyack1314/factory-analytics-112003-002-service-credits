@@ -1,0 +1,98 @@
+{
+  "assets": {
+    "records": 5,
+    "fields": [
+      "line",
+      "tenant",
+      "node",
+      "weight"
+    ]
+  },
+  "incidents": {
+    "records": 4,
+    "fields": [
+      "id",
+      "start_min",
+      "end_min",
+      "node",
+      "kind"
+    ]
+  },
+  "evidence": {
+    "records": 26,
+    "fields": [
+      "id",
+      "incident",
+      "source",
+      "target",
+      "state",
+      "start_min",
+      "end_min",
+      "received_min",
+      "replaces"
+    ]
+  },
+  "bypasses": {
+    "records": 2,
+    "fields": [
+      "id",
+      "incident",
+      "line",
+      "start_min",
+      "end_min",
+      "approved"
+    ]
+  },
+  "permits": {
+    "records": 3,
+    "fields": [
+      "id",
+      "line",
+      "kind",
+      "start_min",
+      "end_min",
+      "approved_min"
+    ]
+  },
+  "terms": {
+    "records": 1,
+    "fields": [
+      "timezone",
+      "minute_zero",
+      "source_coverage",
+      "shared_weight_threshold",
+      "join_gap_min",
+      "incident_cap_cents",
+      "currency",
+      "billing_cutoff_min",
+      "morning_hour_local",
+      "evening_hour_local",
+      "cap_priority",
+      "rate_contract"
+    ]
+  },
+  "tenant_terms": {
+    "records": 3,
+    "fields": [
+      "tenant",
+      "monthly_cap_cents",
+      "first_min",
+      "second_min",
+      "first_cents_per_min",
+      "second_cents_per_min",
+      "priority"
+    ]
+  },
+  "billing_events": {
+    "records": 4,
+    "fields": [
+      "id",
+      "tenant",
+      "incident",
+      "month",
+      "amount_cents",
+      "issued_min",
+      "action"
+    ]
+  }
+}

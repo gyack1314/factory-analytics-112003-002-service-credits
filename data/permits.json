@@ -1,0 +1,26 @@
+[
+  {
+    "id": "M1",
+    "line": "LA",
+    "kind": "接入异常",
+    "start_min": 50360,
+    "end_min": 50400,
+    "approved_min": 50100
+  },
+  {
+    "id": "M2",
+    "line": "LC",
+    "kind": "处理异常",
+    "start_min": 50355,
+    "end_min": 50470,
+    "approved_min": 50105
+  },
+  {
+    "id": "M3",
+    "line": "LC",
+    "kind": "处理异常",
+    "start_min": 50600,
+    "end_min": 50700,
+    "approved_min": 50830
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "timezone": "Asia/Shanghai",
+  "minute_zero": "2026-10-02T00:00:00+08:00",
+  "source_coverage": {
+    "节点探针": "节点连通性，不确认产线服务",
+    "厂内接收器": "指定产线接入或处理服务",
+    "产线确认": "指定产线实际服务"
+  },
+  "shared_weight_threshold": 0.55,
+  "join_gap_min": 12,
+  "incident_cap_cents": 27000,
+  "currency": "CNY",
+  "billing_cutoff_min": 88000,
+  "morning_hour_local": 8,
+  "evening_hour_local": 20,
+  "cap_priority": "同事故依合同优先级，月内按事故开始顺序，已付只计一次",
+  "rate_contract": "首门槛前无抵扣，第一至第二门槛按第一费率，第二门槛以上增量按第二费率"
+}
